@@ -7,6 +7,8 @@ public class Simple3Test {
 
     @Test
     void assertTrueTest() {
-        Assertions.assertTrue(3 > 2);
+        int num1 = 15;
+        int num2 = 100;
+        Assertions.assertTrue(num2 > num1);
     }
 }
